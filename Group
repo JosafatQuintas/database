@@ -1,0 +1,61 @@
+Question 1:
+Only unique offenders (Make sure same offenderse aren't listed multiple times) 
+If OFFENDER(gender == male)
+  If (VICTIM(gender = female)&&VICTIM(age =>60))
+    Return OFFENDER(SSN, Name, Judgementdate, sentence, Startdateofsentence, End of sentence)
+
+Question 3
+Only unique offenders (Make sure same offenderse aren't listed multiple times) 
+If OFFENDER(gender == male)
+  If ((((OFFENDER(height) > (VICTIM(height)))  &&  ((OFFENDER(weight))> (VICTIM(height))))
+    Return OFFENDER(SSN, Name, Judgementdate, sentence, Startdateofsentence, End of sentence)
+
+5
+
+Question 5
+If (TypeOfCrime = robbery)y
+  If VICTIM(DeadorAlive = dead)
+    Return VICTIM(VictimID, CrimNumb, Height, Weight, Race, Age, Sex, TypeofInjuy, DeadorAlive)
+
+Question 7
+Offenders
+  If vechile((type=van) && (color =blue))
+Return OFFENDER(offenderID,CrimeNumber,Height,Race,Age,Sex,SpecialMark,)
+
+
+Question 8
+Count I.E Add up locations and make them uniquely listed
+
+Question 10
+If(crimanlstatus = true )
+   If Crime(weapon = 35mm handgun)
+  return CRIMINAL(SSN, NAME, Address, JudgementDate, sentence, Startdateofsentence, Endofsentence)
+
+
+Question 11
+if offender(Crime type >1)v
+Return OFFENDER(SSN, Name, Judgementdate, sentence, Startdateofsentence, End of sentence)
+
+Question 12 
+If(crimanlstatus = true )
+   If Crime(Itemstaken => 500)
+return CRIMINAL(SSN, NAME, Address, JudgementDate, sentence, Startdateofsentence, Endofsentence)
+
+
+Explainations
+
+Question 1 Explaination: Make sure offender is male. Make sure victims are female and 60. return offender details
+
+Question 3 Explaination: Make sure offender is male. Make sure offender size to victim is greater. Make sure offender weight is greater. Return offender details
+
+Question 5 Explaination: Make sure Victim is dead. Make sure crime type is robbery. Return Vicitim details.
+
+Question 7 Explaination: Make sure vechile type must be a van. Make sure Van color must be blue. Return offender details.
+
+Question 8 Explainations: Count locations and list out (Careful with listing duplicates). Retunr locations
+
+Question 10 explaination: Must be convicted/Crimal. Must be crime type robery. Must use 35mm handgun weapon. Return criminal SSN and name
+
+Question 11 Explaiantion. Offdender must be assocated with other types crimes. Return offender details
+
+Question 12 Offender: Must be crimals/convicted. Must take 500 or more(can total for multiple cases convicted of).  Return crimal details
